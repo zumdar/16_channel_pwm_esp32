@@ -2,7 +2,11 @@
 
 this repo contains the files for a 16 channel pcb to dim leds using sot23 NMOS package for less current. 
 
+![pwm pcb board](pwm_pcb_board.jpg)
 
+![front](render_front.jpg)
+
+![back](render_back.jpg)
 
 ## Authors
 
