@@ -24,7 +24,7 @@ Any advise for common problems or issues.
 * 1.0
     * Initial Release - March 15, 2023
 * 1.1
-	*new design with larger TO-252 package for NMOS
+    * new design with larger TO-252 package for NMOS
 
 ## License
 
