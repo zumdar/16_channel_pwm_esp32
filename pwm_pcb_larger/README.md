@@ -1,7 +1,6 @@
-# 16 Channel PWM led dimming board for ESP32 - smaller version with SOT23 NMOS 
+# 16 Channel PWM led dimming board for ESP32 - smaller version with TO252 package
 
-this repo contains the files for a 16 channel pcb to dim leds using sot23 NMOS package for less current. 
-
+this repo contains the files for a 16 channel pcb to dim leds using TO-252 NMOS package for more current. 
 
 
 ## Authors
@@ -11,8 +10,8 @@ this repo contains the files for a 16 channel pcb to dim leds using sot23 NMOS p
 ## Version History
 
 
-* 1.0
-    * Initial Release - March 15, 2023
+* 1.1
+    * Initial Release - March 20, 2023
 
 ## License
 
