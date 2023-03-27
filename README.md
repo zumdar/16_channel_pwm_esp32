@@ -28,13 +28,20 @@ pcb with smaller transistors:
 
 
 ## Parts references
+### Common parts
 - using ESP-WROOM-32 dev board. 2.05" x 1.18" like the kind [found here](https://www.amazon.com/ESP-WROOM-32-Development-Microcontroller-Integrated-Compatible/dp/B0BK13HWBJ/ref=sr_1_4?keywords=esp32&qid=1679947379&sr=8-4&th=1)
 - Both pcbs mount with M3 screws
+- board has two places for power. one for 5V and one for 8V - 40V. The two connectors MSTBV/MSTBA Phoenix Type, 5.08 pitch. 
+  - straight receptacle/header: [1747993 (green)](https://www.mouser.com/ProductDetail/Phoenix-Contact/1747993?qs=cq3Rj917t3li0%2FrJTXaRgg%3D%3D) or [1836561 (orange)](https://www.mouser.com/ProductDetail/Phoenix-Contact/1836561?qs=RahONj4mt5imYCprRrL9IA%3D%3D) or [1740893 (black)](https://www.mouser.com/ProductDetail/Phoenix-Contact/1740893?qs=o3rrLWFGhRnNm6PoJeAVCw%3D%3D)
+  - right angle receptacle/header: [1736036 (green)](https://www.mouser.com/ProductDetail/Phoenix-Contact/1736036?qs=IGPQaF7TU6v9VVAvkUDQlA%3D%3D) or [1702878 (white)](https://www.mouser.com/ProductDetail/Phoenix-Contact/1702878?qs=2WS7V4AoKFqZwxKPPB6GZw%3D%3D) or [1876848 (orange)](https://www.mouser.com/ProductDetail/Phoenix-Contact/1876848?qs=KDxjV83btlSGzDlv5NRfLA%3D%3D)
+  - terminal block plug: [Wurth 691351500002](https://www.mouser.com/ProductDetail/Wurth-Elektronik/691351500002?qs=7gQLVZk5cPkg%2FrpRGyiXgA%3D%3D) or [Kobiconn 158-P022ESDVP-E](https://www.mouser.com/ProductDetail/Kobiconn/158-P022ESDVP-E?qs=EibfsPFbZarDIylQPyTRxA%3D%3D) or [Amphenol TJ0251530000G](https://www.mouser.com/ProductDetail/Amphenol-Anytek/TJ0251530000G?qs=Mv7BduZupUjx%252Becl1KCPZg%3D%3D)
+### larger pcb
 - Enclosure mounts with #8 wood screws
 -  the larger board uses 3.81mm pitch connector for led outputs
-  - 16 channel connector -  pluggable screw terminal block - [TBP02P1-381-16BE](https://www.mouser.com/ProductDetail/490-TBP02P1-381-16BE) 
-  - screw terminal receptacle 
+   - 16 channel plug -  pluggable screw terminal block - [TBP02P1-381-16BE](https://www.mouser.com/ProductDetail/490-TBP02P1-381-16BE) 
+   - screw terminal receptacle/header 
 [TBP02R1-381-16BE](https://www.mouser.com/ProductDetail/490-TBP02R1-381-16BE)
+### smaller pcb
 - smaller board uses 2.54mm connector for led outputs
 
 
