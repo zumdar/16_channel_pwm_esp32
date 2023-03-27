@@ -400,7 +400,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "pwm_pcb.dsn",
-      "step": "",
+      "step": "pwm_pcb_larger.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

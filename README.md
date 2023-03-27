@@ -27,7 +27,15 @@ pcb with smaller transistors:
 ![Alt text](pwm_pcb/render_back.jpg)
 
 
-## Getting Started
+## Parts references
+- using ESP-WROOM-32 dev board. 2.05" x 1.18" like the kind [found here](https://www.amazon.com/ESP-WROOM-32-Development-Microcontroller-Integrated-Compatible/dp/B0BK13HWBJ/ref=sr_1_4?keywords=esp32&qid=1679947379&sr=8-4&th=1)
+- Both pcbs mount with M3 screws
+- Enclosure mounts with #8 wood screws
+-  the larger board uses 3.81mm pitch connector for led outputs
+  - 16 channel connector -  pluggable screw terminal block - [TBP02P1-381-16BE](https://www.mouser.com/ProductDetail/490-TBP02P1-381-16BE) 
+  - screw terminal receptacle 
+[TBP02R1-381-16BE](https://www.mouser.com/ProductDetail/490-TBP02R1-381-16BE)
+- smaller board uses 2.54mm connector for led outputs
 
 
 ## Help
@@ -45,7 +53,7 @@ Any advise for common problems or issues.
 * 1.0
     * Initial Release - March 15, 2023
 * 1.1
-    * new design with larger TO-252 package for NMOS
+    * new design with larger TO-252 package for NMOS - March 20, 2023
 
 ## License
 
