@@ -2248,6 +2248,11 @@
     (uuid fb0d6280-9ab2-44d8-909b-5f104802556d)
   )
 
+  (text "when VDC is applied (8-37V), and the 5v \nis shorted to ground, the fuse doesnt pop,\nD3 gets blown out\n"
+    (at 224.79 7.62 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 06759f2f-c63c-4931-a88a-d38a627333d7)
+  )
   (text "5V only in!" (at 247.65 95.25 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 170ae8a8-2207-413d-8c7b-a825569ad1dd)
