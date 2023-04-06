@@ -61,6 +61,8 @@ Any advise for common problems or issues.
     * Initial Release - March 15, 2023
 * 1.1
     * new design with larger TO-252 package for NMOS - March 20, 2023
+* 1.2 - april 5, 2023
+  * v2 of smaller board. v1 had NMOS pinout wrong
 
 ## License
 
