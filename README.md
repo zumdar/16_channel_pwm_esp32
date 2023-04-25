@@ -1,6 +1,6 @@
 # 16 Channel PWM led dimming board for ESP32
 
-this repo contains the files for a 16 channel pcb to dim leds. 
+this repo contains the files for a 16 channel pcb to dim LEDS. 
 
 
 ## Description
