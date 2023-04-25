@@ -12,6 +12,7 @@ It is designed to take in voltages from 5 to 37 Volts to power the ESP32. That w
 There are two separate places to put power in. 
 EITHER plug 5V into the 5V side, or plug 7 - 37V into the other side. 
 ## pinout
+
 LED1 = GPIO 5
 
 LED2 = GPIO 12
@@ -47,7 +48,7 @@ LED16 = GPIO 32
 ![Alt text](pwm_pcb/16_channel_pwm_schematic.jpg)
 
 ## PCB
-pcb with larger transistors:
+pcb with larger transistorss:
 
 ![Alt text](pwm_pcb_larger/render_front.jpg)
 ![Alt text](pwm_pcb_larger/render_back.jpg)
