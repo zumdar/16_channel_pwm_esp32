@@ -60,6 +60,10 @@ pcb with smaller transistors:
 
 
 ## Parts references
+### Connectors
+- On version 1.3 we are trying out some Molex Microfit connectors
+- Crimping tool - [Engineer PA09](https://www.amazon.com/ENGINEER-AWG32-AWG20-Connectors-Oil-Resistant-PA-09/dp/B002AVVO7K?th=1) 
+- 
 ### Common parts
 - using ESP-WROOM-32 dev board. 2.05" x 1.18" like the kind [found here](https://www.amazon.com/ESP-WROOM-32-Development-Microcontroller-Integrated-Compatible/dp/B0BK13HWBJ/ref=sr_1_4?keywords=esp32&qid=1679947379&sr=8-4&th=1)
 - Both pcbs mount with M3 screws
