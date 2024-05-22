@@ -1749,6 +1749,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Regulator_Linear:LM317_TO-252"
 			(pin_names
 				(offset 0.254)
@@ -7146,7 +7228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical"
 			(at 177.8 157.48 0)
 			(effects
 				(font
@@ -7684,7 +7766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_2-G-5,08_1x02_P5.08mm_Vertical"
+		(property "Footprint" "william customs:Kobiconn - 2 pin terminal - 158P02DT39BE"
 			(at 254 87.63 0)
 			(effects
 				(font
@@ -7820,7 +7902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical"
 			(at 210.82 120.65 0)
 			(effects
 				(font
@@ -8391,7 +8473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical"
 			(at 177.8 111.76 0)
 			(effects
 				(font
@@ -8697,7 +8779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical"
 			(at 177.8 104.14 0)
 			(effects
 				(font
@@ -8921,7 +9003,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical"
 			(at 210.82 135.89 0)
 			(effects
 				(font
@@ -8990,7 +9072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical"
 			(at 210.82 158.75 0)
 			(effects
 				(font
@@ -9486,6 +9568,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 160.02 172.72 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e658526-2f04-41dc-a0dd-5d01664d5187")
+		(property "Reference" "H1"
+			(at 162.56 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 162.56 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 160.02 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 160.02 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pwm_pcb_larger"
+				(path "/d102b526-c3a7-4b8e-8088-b5c9c3073ec7"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 74.93 125.73 0)
 		(unit 1)
@@ -9885,7 +10031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical"
 			(at 210.82 143.51 0)
 			(effects
 				(font
@@ -10207,6 +10353,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 160.02 179.07 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57a179e4-858e-479d-a0e7-98efc4e64a4a")
+		(property "Reference" "H2"
+			(at 162.56 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 162.56 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 160.02 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 160.02 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pwm_pcb_larger"
+				(path "/d102b526-c3a7-4b8e-8088-b5c9c3073ec7"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 177.8 142.24 0)
 		(unit 1)
@@ -10234,7 +10444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical"
 			(at 177.8 142.24 0)
 			(effects
 				(font
@@ -10462,7 +10672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical"
 			(at 210.82 113.03 0)
 			(effects
 				(font
@@ -11350,6 +11560,70 @@
 			(project "pwm_pcb_larger"
 				(path "/d102b526-c3a7-4b8e-8088-b5c9c3073ec7"
 					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 160.02 185.42 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77c86965-65e7-4fe8-b0f6-6c9326cf4430")
+		(property "Reference" "H3"
+			(at 162.56 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 162.56 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 160.02 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 160.02 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pwm_pcb_larger"
+				(path "/d102b526-c3a7-4b8e-8088-b5c9c3073ec7"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -12742,7 +13016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical"
 			(at 177.8 119.38 0)
 			(effects
 				(font
@@ -13034,7 +13308,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical"
 			(at 177.8 149.86 0)
 			(effects
 				(font
@@ -13451,6 +13725,70 @@
 			(project "pwm_pcb_larger"
 				(path "/d102b526-c3a7-4b8e-8088-b5c9c3073ec7"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 160.02 191.77 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac16bddb-d623-4fc6-a153-9a0130606a79")
+		(property "Reference" "H4"
+			(at 162.56 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 162.56 193.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 160.02 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 160.02 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pwm_pcb_larger"
+				(path "/d102b526-c3a7-4b8e-8088-b5c9c3073ec7"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -13960,7 +14298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical"
 			(at 210.82 151.13 0)
 			(effects
 				(font
@@ -14030,7 +14368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical"
 			(at 210.82 105.41 0)
 			(effects
 				(font
@@ -14611,7 +14949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical"
 			(at 177.8 134.62 0)
 			(effects
 				(font
@@ -14814,7 +15152,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_2-G-5,08_1x02_P5.08mm_Vertical"
+		(property "Footprint" "william customs:Kobiconn - 2 pin terminal - 158P02DT39BE"
 			(at 254 107.95 0)
 			(effects
 				(font
@@ -15387,7 +15725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical"
 			(at 177.8 127 0)
 			(effects
 				(font
@@ -15602,7 +15940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical"
 			(at 210.82 128.27 0)
 			(effects
 				(font
