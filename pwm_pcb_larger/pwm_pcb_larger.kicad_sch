@@ -7,7 +7,7 @@
 	(title_block
 		(title "16 channel dimmer for LEDs")
 		(date "2023-02-17")
-		(rev "B")
+		(rev "3")
 		(company "freakylamps")
 	)
 	(lib_symbols
