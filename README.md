@@ -45,15 +45,24 @@ LED15 = GPIO 27
 
 LED16 = GPIO 32
 ## Schematic 
+Rev 3
+![Alt text](pwm_pcb_larger/pwm_pcb_largerREV3.png)
+Rev 1 
 ![Alt text](pwm_pcb/16_channel_pwm_schematic.jpg)
 
+
 ## PCB
-pcb with larger transistorss:
+
+Rev. 3 - pcb with larger transistors and larger connectors:
+
+![Alt text](pwm_pcb_larger/pwm_pcb_largerREV3_back.png)
+![Alt text](pwm_pcb_larger/pwm_pcb_largerREV3_Front.png)
+Rev. 1 - pcb with larger transistors:
 
 ![Alt text](pwm_pcb_larger/render_front.jpg)
 ![Alt text](pwm_pcb_larger/render_back.jpg)
 
-pcb with smaller transistors:
+Rev. 1 - pcb with smaller transistors:
 
 ![Alt text](pwm_pcb/render_front.jpg)
 ![Alt text](pwm_pcb/render_back.jpg)
@@ -99,6 +108,11 @@ Any advise for common problems or issues.
     * new design with larger TO-252 package for NMOS - March 20, 2023
 * 1.2 - april 5, 2023
   * v2 of smaller board. v1 had NMOS pinout wrong
+* Rev 3 - May 22, 2024
+  * large boards are now larger, using MicroFit connectors for the led outputs, terminal block for PSU inputs
+  * switch is on front now
+  * Q17 had pinout wrong
+  
 
 ## License
 
