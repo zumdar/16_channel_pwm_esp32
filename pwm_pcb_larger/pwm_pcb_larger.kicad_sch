@@ -1188,7 +1188,7 @@
 				)
 			)
 		)
-		(symbol "Device:Q_PMOS_DGS"
+		(symbol "Device:Q_PMOS_GSD"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -1203,7 +1203,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_PMOS_DGS"
+			(property "Value" "Q_PMOS_GSD"
 				(at 5.08 -1.27 0)
 				(effects
 					(font
@@ -1230,7 +1230,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "P-MOSFET transistor, drain/gate/source"
+			(property "Description" "P-MOSFET transistor, gate/source/drain"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1248,7 +1248,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Q_PMOS_DGS_0_1"
+			(symbol "Q_PMOS_GSD_0_1"
 				(polyline
 					(pts
 						(xy 0.254 0) (xy -2.54 0)
@@ -1415,11 +1415,11 @@
 					)
 				)
 			)
-			(symbol "Q_PMOS_DGS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
+			(symbol "Q_PMOS_GSD_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1434,10 +1434,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1453,9 +1453,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5372,6 +5372,26 @@
 		)
 		(uuid "31389242-c809-4bae-afb9-eccbbf8630d4")
 	)
+	(text "Source"
+		(exclude_from_sim no)
+		(at 162.306 37.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3149f5e2-2dfd-4a08-95ca-6024d6d86bd9")
+	)
+	(text "Drain\n	\n"
+		(exclude_from_sim no)
+		(at 164.084 47.498 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3274507b-1c91-40c3-b40a-d8c46ce62f23")
+	)
 	(text "8V - 37V	"
 		(exclude_from_sim no)
 		(at 217.17 26.67 0)
@@ -5404,6 +5424,16 @@
 			(justify left bottom)
 		)
 		(uuid "5e8bd168-dc4f-4155-967b-1465c330a12e")
+	)
+	(text "Gate"
+		(exclude_from_sim no)
+		(at 174.752 39.116 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7fad489b-5ea7-4635-bde4-66e2767ff934")
 	)
 	(text "protection circuitry"
 		(exclude_from_sim no)
@@ -7687,7 +7717,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 189.23 43.18 0)
 			(effects
 				(font
@@ -13572,7 +13602,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_PMOS_DGS")
+		(lib_id "Device:Q_PMOS_GSD")
 		(at 171.45 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13617,7 +13647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "P-MOSFET transistor, gate/source/drain"
 			(at 171.45 41.91 0)
 			(effects
 				(font
@@ -16246,7 +16276,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 168.91 50.8 0)
 			(effects
 				(font

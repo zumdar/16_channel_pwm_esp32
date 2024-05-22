@@ -8,9 +8,24 @@ D3,1N4148,D_SOD-323,104.9,-86.6,0.0,top
 D4,D_Schottky,D_SMA,106.0,-98.8,-90.0,top
 D5,1N4148,D_SOD-323,99.15,-86.8,180.0,top
 F1,resettable fuse,Fuse_1206_3216Metric,103.632,-57.912,180.0,top
-J1,Conn_01x02,"PhoenixContact_MSTBVA_2,5_2-G-5,08_1x02_P5.08mm_Vertical",98.6,-66.14,90.0,bottom
-J2,Conn_01x02,"PhoenixContact_MSTBVA_2,5_2-G-5,08_1x02_P5.08mm_Vertical",98.6,-98.86,90.0,bottom
-J3,Conn_01x16,CUI_TBP02R1-381-16BE,126.625,-114.1375,180.0,top
+J1,Conn_01x02,Kobiconn - 2 pin terminal - 158P02DT39BE,88.0,-65.875,270.0,bottom
+J2,Conn_01x02,Kobiconn - 2 pin terminal - 158P02DT39BE,88.0,-95.875,270.0,bottom
+J3,Conn_01x02,Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical,163.93,-115.97,0.0,bottom
+J4,Conn_01x02,Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical,152.501429,-115.97,0.0,bottom
+J5,Conn_01x02,Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical,141.072858,-115.97,0.0,bottom
+J6,Conn_01x02,Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical,129.644287,-115.97,0.0,bottom
+J7,Conn_01x02,Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical,118.215716,-115.97,0.0,bottom
+J8,Conn_01x02,Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical,106.787145,-115.97,0.0,bottom
+J9,Conn_01x02,Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical,95.358574,-115.97,0.0,bottom
+J10,Conn_01x02,Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical,83.93,-115.97,0.0,bottom
+J11,Conn_01x02,Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical,164.0,-130.91,0.0,bottom
+J12,Conn_01x02,Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical,152.561429,-130.91,0.0,bottom
+J13,Conn_01x02,Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical,141.122858,-130.91,0.0,bottom
+J14,Conn_01x02,Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical,129.684287,-130.91,0.0,bottom
+J15,Conn_01x02,Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical,118.245716,-130.97,0.0,bottom
+J16,Conn_01x02,Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical,106.807145,-130.97,0.0,bottom
+J17,Conn_01x02,Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical,95.368574,-130.97,0.0,bottom
+J18,Conn_01x02,Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical,83.93,-130.97,0.0,bottom
 Q1,NMOS,TO-252-2,152.9,-74.9429,0.0,top
 Q2,NMOS,TO-252-2,126.625,-61.5882,0.0,top
 Q3,NMOS,TO-252-2,126.625,-53.075,0.0,top
@@ -27,7 +42,7 @@ Q13,NMOS,TO-252-2,126.825,-95.6408,0.0,top
 Q14,NMOS,TO-252-2,126.825,-87.1277,0.0,top
 Q15,NMOS,TO-252-2,126.825,-78.6145,0.0,top
 Q16,NMOS,TO-252-2,126.825,-104.154,0.0,top
-Q17,Q_PMOS_DGS,SOT-23,106.6,-64.0,180.0,top
+Q17,Q_PMOS_DGS,SOT-23,106.6,-64.0,0.0,top
 R1,100,R_0805_2012Metric,139.5495,-78.105,0.0,top
 R2,100,R_0805_2012Metric,114.204,-68.8938,0.0,top
 R3,10k,R_0805_2012Metric,143.1055,-78.105,180.0,top
@@ -65,6 +80,6 @@ R34,10k,R_0805_2012Metric,114.2,-57.5545,90.0,top
 R35,1K,R_0805_2012Metric,118.6,-57.531,90.0,top
 R36,240,R_0805_2012Metric,94.35,-76.2,180.0,top
 R37,750,R_0805_2012Metric,90.95,-76.2,180.0,top
-SW1,SW_SPST,SW_SPST_CK_RS282G05A3,138.0,-53.8,0.0,top
-U1,ESP32_DevKit_V1_DOIT,esp32_devkit_v1_doit,123.825,-96.926,180.0,bottom
+SW1,SW_SPST,SW_SPST_CK_RS282G05A3,153.475,-51.55,0.0,bottom
+U1,ESP32_DevKit_V1_DOIT,esp32_devkit_v1_doit,123.825,-79.146,180.0,bottom
 U2,LM317_TO-252,TO-252-2,102.175,-80.525,0.0,top
