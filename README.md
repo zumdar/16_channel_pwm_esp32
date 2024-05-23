@@ -74,6 +74,10 @@ Rev. 1 - pcb with smaller transistors:
 - Crimping tool - [Engineer PA09](https://www.amazon.com/ENGINEER-AWG32-AWG20-Connectors-Oil-Resistant-PA-09/dp/B002AVVO7K?th=1) 
 - 
 ### Common parts
+- [Mouser Cart](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=f114f2123e) for QTY 5 REV2 boards - this is parts not included with the JLCPCB assembly. 
+
+- [Recommended Generic Crimper](https://www.amazon.com/ENGINEER-AWG32-AWG20-Connectors-Oil-Resistant-PA-09/dp/B002AVVO7K) for Molex Microfit Connectors
+
 - using ESP-WROOM-32 dev board. 2.05" x 1.18" like the kind [found here](https://www.amazon.com/ESP-WROOM-32-Development-Microcontroller-Integrated-Compatible/dp/B0BK13HWBJ/ref=sr_1_4?keywords=esp32&qid=1679947379&sr=8-4&th=1)
 - Both pcbs mount with M3 screws
 - board has two places for power. one for 5V and one for 8V - 40V. The two connectors MSTBV/MSTBA Phoenix Type, 5.08 pitch. 
