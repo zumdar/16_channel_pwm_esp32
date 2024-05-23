@@ -1,0 +1,27 @@
+Reference,Value,Datasheet,Footprint,Qty,LCSC,Part Number,Mouser Link
+C1,4.7u,~,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,1,C29823,,
+C2,0.1uF,~,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,1,C24497,,
+C3,1uF,~,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,1,C1848,,
+D1,Fuse Trip,~,LED_SMD:LED_0805_2012Metric,1,C84256,,
+D2,power OK,~,LED_SMD:LED_0805_2012Metric,1,C34499,,
+"D3,D5",1N4148,https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf,Diode_SMD:D_SOD-323,2,C2128,,
+D4,D_Schottky,~,Diode_SMD:D_SMA,1,C2480,,
+F1,resettable fuse,~,Fuse:Fuse_1206_3216Metric,1,C70077,,
+"J1,J2",Conn_01x02,~,william customs:Kobiconn - 2 pin terminal - 158P02DT39BE,2,,158-P02DT39B-E,https://www.mouser.com/ProductDetail/Kobiconn/158-P02DT39B-E?qs=sU0fTKI0LumyQ7Jmuo1Jcw%3D%3D
+"J3,J4,J5,J6,J7,J8,J9,J10,J11,J12,J13,J14,J15,J16,J17,J18",Conn_01x02,~,Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical,16,,43045-0212,https://www.mouser.com/ProductDetail/Molex/43045-0212?qs=QtQX4uD3c2XFLtjr%252BHeRmQ%3D%3D
+"Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9,Q10,Q11,Q12,Q13,Q14,Q15,Q16",NMOS,~,Package_TO_SOT_SMD:TO-252-2,16,C2995345,,
+Q17,Q_PMOS_DGS,~,Package_TO_SOT_SMD:SOT-23,1,C15127,,
+"R1,R2,R5,R6,R9,R10,R13,R14,R17,R18,R21,R22,R25,R26,R29,R30",100,~,Resistor_SMD:R_0805_2012Metric,16,C17408,,
+"R3,R4,R7,R8,R11,R12,R15,R16,R19,R20,R23,R24,R27,R28,R31,R32,R34",10k,~,Resistor_SMD:R_0805_2012Metric,17,C17414,,
+"R33,R35",1K,~,Resistor_SMD:R_0805_2012Metric,2,C17513,,
+R36,240,~,Resistor_SMD:R_0805_2012Metric,1,C17572,,
+R37,750,~,Resistor_SMD:R_0805_2012Metric,1,C17818,,
+SW1,SW_SPST,~,Button_Switch_SMD:SW_SPST_CK_RS282G05A3,1,C54948,CFS-0102TB,https://www.mouser.com/ProductDetail/Nidec-Components/CFS-0102TB?qs=XeJtXLiO41Q%2F6gtnIMuqpA%3D%3D
+U1,ESP32_DevKit_V1_DOIT,https://aliexpress.com/item/32864722159.html,Espressif:esp32_devkit_v1_doit,1,,,https://www.amazon.com/ESP-WROOM-32-Development-Microcontroller-Integrated-Compatible/dp/B0BK13HWBJ/ref=sr_1_4?keywords=esp32&qid=1679947379&sr=8-4&th=1
+U2,LM317_TO-252,http://www.ti.com/lit/ds/snvs774n/snvs774n.pdf,Package_TO_SOT_SMD:TO-252-2,1,C75510,,
+Special Items,,,,,,,
+Generic Molex Microfit Crimper,,,can crimp wires AWG32 - AWG 20,1,,Engineer PA-09,https://www.amazon.com/ENGINEER-AWG32-AWG20-Connectors-Oil-Resistant-PA-09/dp/B002AVVO7K
+Molex Micofit socket (female) connectors,,,,16,,43025-0200,https://www.mouser.com/ProductDetail/Molex/43025-0200?qs=4XSMV6Twtb2B3B7qTwcqgQ%3D%3D
+Molex Micofit socket (female) crimp connectors,,,,32,,43030-0001,https://www.mouser.com/ProductDetail/Molex/43030-0001-Cut-Strip?qs=LVm7ROZMjqOG%2FpR3agpKGQ%3D%3D
+,,,,,,,
+Mouser Cart for QTY 5 Boards,,,,,,,
